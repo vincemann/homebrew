@@ -2,7 +2,7 @@ class SubtitleBuddyDevMac < Formula
   desc "Opensource Subtitle Player"
   homepage "https://github.com/vincemann/subtitle-buddy"
   url "http://192.168.178.69:8000/subtitle-buddy-1.1.0-macx64.tar.gz"
-  sha256 "ee57d0df4d46e5c168279be31c869b8e2655febbd3ade3f1f2bed5cd41725a96"
+  sha256 "354842f74cd0e945a2eb9a2a7a989f3c62edcb88640ae4603ade2645851f36c7"
 
   def install
     # Extract the tarball to the libexec directory
