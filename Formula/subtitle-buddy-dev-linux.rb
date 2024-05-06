@@ -2,7 +2,7 @@ class SubtitleBuddyDevLinux < Formula
   desc "Opensource Subtitle Player"
   homepage "https://github.com/vincemann/subtitle-buddy"
   url "http://192.168.178.69:8000/subtitle-buddy-1.1.0-linuxx64.tar.gz"
-  sha256 "faaa918878a9701174ab7ee1832219253892e5474ba1ccd86176af3480340e8e"
+  sha256 "29410b7795cc3c9d101d6a5b91e807fc072a423266e60c812a7036c1c8a74555"
 
  def install
     # Extract the tarball to the libexec directory
