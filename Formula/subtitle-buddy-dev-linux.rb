@@ -4,7 +4,7 @@ class SubtitleBuddyDevLinux < Formula
   url "http://192.168.178.69:8000/subtitle-buddy-1.1.0-linuxx64.tar.gz"
   sha256 "029213c6774017e43253905d42a99058cd710e18f0ea2ee89c43234e91977477"
 
- def install
+  def install
     # Extract the tarball to the libexec directory
     libexec.install Dir["*"]
 
