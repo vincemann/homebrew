@@ -3,10 +3,10 @@ class SubtitleBuddy < Formula
   homepage "https://github.com/vincemann/subtitle-buddy"
 
    if OS.mac?
-    url "http://192.168.178.69:8000/subtitle-buddy-mac-1.1.0.tar.gz"
+    url "http://192.168.178.69:8000/subtitle-buddy-1.1.0-macx64.tar.gz"
     sha256 "bcea4f9f6dbd4e9334b664a558236487dda617b44edfa939b2324b67b6d8504b"
   elsif OS.linux?
-    url "http://192.168.178.69:8000/subtitle-buddy-linux-1.1.0.tar.gz"
+    url "http://192.168.178.69:8000/subtitle-buddy-1.1.0-linuxx64.tar.gz"
     sha256 "4d852b7b0b36a0bdd87c05bfe60d8bff32758c42f282f2e24d683358ac726cac"
   end
 
