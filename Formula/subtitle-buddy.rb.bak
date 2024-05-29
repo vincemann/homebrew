@@ -1,8 +1,14 @@
-class SubtitleBuddyDevLinux < Formula
+class SubtitleBuddy < Formula
   desc "Opensource Subtitle Player"
   homepage "https://github.com/vincemann/subtitle-buddy"
-  url "http://192.168.178.69:8000/subtitle-buddy-1.1.0-linuxx64.tar.gz"
-  sha256 "f3f973139d05f826bed45d3cd288acf18f1fc346d6ff8794d521e80f92a6fb8a"
+
+   if OS.mac?
+    url "https://example.com/subtitle-buddy-mac-1.1.0.tar.gz"
+    sha256 "mac-sha256-checksum"
+  elsif OS.linux?
+    url "https://example.com/subtitle-buddy-linux-1.1.0.tar.gz"
+    sha256 "linux-sha256-checksum"
+  end
 
   def install
     # Extract the tarball to the libexec directory
