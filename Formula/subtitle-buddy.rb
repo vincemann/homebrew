@@ -7,7 +7,7 @@ class SubtitleBuddy < Formula
     sha256 "570fab7d3c231bd03e4998666b533f890ca64c52a4f2de04eebb953243e3c4b9"
   elsif OS.linux?
     url "http://192.168.178.69:8000/subtitle-buddy-1.1.0-linuxx64.tar.gz"
-    sha256 "4d852b7b0b36a0bdd87c05bfe60d8bff32758c42f282f2e24d683358ac726cac"
+    sha256 ""
   end
 
   def install
