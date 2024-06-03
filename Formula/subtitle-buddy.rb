@@ -5,7 +5,7 @@ class SubtitleBuddy < Formula
 
   if OS.mac?
     url "#{download_host}/image-mac.zip"
-    sha256 "5e39704e417be7be6dba6afe7fc3201cad9c01391b1e3407cbddcdcd85a94cbd"
+    sha256 "2b04dfd0a0e7fa919e66eb5900ab0100a2f49c98cd00da4a1fa6b77ff1deb985"
   elsif OS.linux?
     url "#{download_host}/image-linux.zip"
     sha256 "d3129042997423bcecd1fc1b907947c8f7408255929be77a69aec981dd49b046"
