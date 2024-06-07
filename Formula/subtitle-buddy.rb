@@ -5,12 +5,18 @@ class SubtitleBuddy < Formula
   version="1.1.0"
 
   if OS.mac?
-    url "#{download_host}/subtitle-buddy-#{version}-mac-image.zip"
-    sha256 "15d21e55819d41e042b700f67e951b81340988b01bce24f05216aeed81015ce1"
+    if Hardware::CPU.arm?
+      url "#{download_host}/subtitle-buddy-#{version}-mac-aarch64-image.zip"
+      sha256 "aarch64-specific-sha256-checksum-here"
+    else
+      url "#{download_host}/subtitle-buddy-#{version}-mac-x64-image.zip"
+      sha256 "15d21e55819d41e042b700f67e951b81340988b01bce24f05216aeed81015ce1"
+    end
   elsif OS.linux?
     url "#{download_host}/subtitle-buddy-#{version}-linux-image.zip"
     sha256 "23d0171b32210aea7b4cd34c30c612ca794a6289860f0f0706520c25fd351491"
   end
+
 
   def install
     # Extract the zip file to the libexec directory
@@ -46,5 +52,9 @@ class SubtitleBuddy < Formula
   test do
     # The test block ensures the symlink exists and points to an executable file
     assert_predicate bin/"subtitle-buddy", :executable?, "Subtitle Buddy should be executable"
+    
+    # Run the version command and check if it returns the correct version
+    output = shell_output("#{bin}/subtitle-buddy --version")
+    assert_match "Version: #{version}", output.strip, "Version output should match the expected version"
   end
 end
