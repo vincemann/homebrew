@@ -2,12 +2,13 @@ class SubtitleBuddy < Formula
   desc "Opensource Subtitle Player"
   homepage "https://github.com/vincemann/subtitle-buddy"
   download_host = "http://192.168.178.69:8000"
+  version="1.1.0"
 
   if OS.mac?
-    url "#{download_host}/image-mac.zip"
+    url "#{download_host}/subtitle-buddy-#{version}-mac-image.zip"
     sha256 "15d21e55819d41e042b700f67e951b81340988b01bce24f05216aeed81015ce1"
   elsif OS.linux?
-    url "#{download_host}/image-linux.zip"
+    url "#{download_host}/subtitle-buddy-#{version}-linux-image.zip"
     sha256 "23d0171b32210aea7b4cd34c30c612ca794a6289860f0f0706520c25fd351491"
   end
 
