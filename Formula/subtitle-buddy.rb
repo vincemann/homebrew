@@ -8,7 +8,7 @@ class SubtitleBuddy < Formula
     sha256 "15d21e55819d41e042b700f67e951b81340988b01bce24f05216aeed81015ce1"
   elsif OS.linux?
     url "#{download_host}/image-linux.zip"
-    sha256 ""
+    sha256 "23d0171b32210aea7b4cd34c30c612ca794a6289860f0f0706520c25fd351491"
   end
 
   def install
