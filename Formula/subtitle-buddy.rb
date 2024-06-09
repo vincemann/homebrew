@@ -4,6 +4,7 @@ class SubtitleBuddy < Formula
   download_host = "http://192.168.178.69:8000"
   version="1.1.0"
 
+  # supports linux x64, mac x64 & mac aarch64
   if OS.mac?
     if Hardware::CPU.arm?
       url "#{download_host}/subtitle-buddy-#{version}-mac-aarch64-image.zip"
