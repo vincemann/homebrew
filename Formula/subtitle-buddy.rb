@@ -16,7 +16,7 @@ f7bf7806747b5095790aeb9a20e68d622ad1656bd4ab51a58f3739baa644b68f"
     end
   elsif OS.linux?
     url "#{download_host}/subtitle-buddy-#{version}-linux-image.zip"
-    sha256 "f58562745d5988dcc45e1bd941f09e50103ae2255b68d3b3ec68a6f7df84ca09"
+    sha256 "d042b991c6ad752dd87e0e49f20932e065531a895f08d8c62c922e439049e9b7"
   end
 
 
