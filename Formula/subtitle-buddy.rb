@@ -8,7 +8,7 @@ class SubtitleBuddy < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "#{download_host}/subtitle-buddy-#{version}-mac-aarch64-image.zip"
-      sha256 "d8777046202909d1d73de155889b0ad9c49ce083e68f80aebfeaa165318a1420"
+      sha256 "73afc844c4b5ee3aa42b55f614ac56e0c053b05dffc81ee9f25f42020007ff29"
     else
       url "#{download_host}/subtitle-buddy-#{version}-mac-image.zip"
       sha256 "ffedbf46eec90571625436433f8e352343090331c66f6f6731d9b089c544a6ca"
