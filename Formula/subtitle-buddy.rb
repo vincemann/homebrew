@@ -11,7 +11,7 @@ class SubtitleBuddy < Formula
       sha256 "aarch64-specific-sha256-checksum-here"
     else
       url "#{download_host}/subtitle-buddy-#{version}-mac-image.zip"
-      sha256 "abc7c61a1347fcfa2418ff484dbd2a13956352ff0a4fa12e12bd425205b8da5a"
+      sha256 "6b76063a15551d864e0d4b448e51a1a3c3bed8285dce684900251dc8f18ecad9"
     end
   elsif OS.linux?
     url "#{download_host}/subtitle-buddy-#{version}-linux-image.zip"
