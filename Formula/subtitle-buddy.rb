@@ -15,7 +15,7 @@ class SubtitleBuddy < Formula
     end
   elsif OS.linux?
     url "#{download_host}/subtitle-buddy-#{version}-linux-image.zip"
-    sha256 "d8e6c325c4e3dc504a2bf68e63cc9a5d0de3eaa3d1c4ee06a0dd0ffbf8fa661f"
+    sha256 "860d36ed7446521df6578179acc88314c44c0c8cf2bc37619199b4b2a6ca28ee"
   end
 
 
