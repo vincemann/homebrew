@@ -2,7 +2,7 @@ class SubtitleBuddy < Formula
   desc "Opensource Subtitle Player"
   homepage "https://github.com/vincemann/subtitle-buddy"
   download_host = "http://192.168.178.69:8000"
-  version="1.1.0"
+  version="2.0.0"
 
   # supports linux x64, mac x64 & mac aarch64
   if OS.mac?
