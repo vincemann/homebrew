@@ -30,7 +30,7 @@ class SubtitleBuddy < Formula
   def post_install
     if OS.mac?
       # URLs to the correct libraries
-      download_host = "https://github.com/vincemann/subtitle-buddy/raw/master/server"
+      download_host = "https://github.com/vincemann/subtitle-buddy/raw/stable-dylibs/server"
       jnativehook_arm64_url = "#{download_host}/libJNativeHook_arm64.dylib"
       jnativehook_x86_64_url = "#{download_host}/libJNativeHook_x86_64.dylib"
       libjvm_url = "#{download_host}/libjvm.dylib"
